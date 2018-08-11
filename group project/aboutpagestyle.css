@@ -1,0 +1,419 @@
+/*about section for mobile*/
+
+
+body{
+  background-color: #090C30;
+}
+
+section{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:900;
+  color:white;
+  width:90%;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:30px;
+}
+
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:600;
+  color:white;
+  width:90%;
+  font-size: 26px;
+  margin: 0 auto;
+  margin-bottom:15px;
+  text-align: center;
+  margin-top:15px;
+}
+
+/*STORY*/
+
+.story h2{
+  margin-bottom:10px;
+}
+
+.story{
+  color:white;
+  width:90%;
+  margin: 0 auto;
+}
+
+.story span{
+  color:#20B2AA;
+  text-transform: uppercase;
+  font-size:inherit;
+}
+
+.story p{
+  font-size: 14px;
+  font-weight: 600;
+  text-align: justify;
+  padding-top: 5px;
+}
+
+/*FAQ*/
+
+
+.faq{
+  width:90%;
+  margin:0 auto;
+}
+
+
+.accordion {
+    font-weight: bold;
+    width:100%;
+    background-color: #090C30;
+    color: #44EEEB;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.active, .accordion:hover {
+    background-color: #878f99;
+}
+
+.panel {
+    width:calc(100%-18px);
+    background-color: inherit);
+    color:white;
+    display: none;
+    overflow: hidden;
+    margin:0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+iframe{
+  width:100%;
+}
+
+
+/* Image grid starts here */
+
+.gallery{
+  width:90%;
+  margin: 0 auto;
+}
+
+.picture-grid img{
+  width:100%;
+}
+
+.picture-grid img:hover{
+  transform: scale(1.5);
+}
+
+.picture-grid{
+  display:grid;
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/*FOOTER and partners*/
+
+.background{
+    background-color:black;
+}
+
+
+/*partneriai*/
+section.partners>h3{
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+section.partners{
+    background-color: black;
+    min-height: 250px;
+    margin: 0 auto 70px auto;
+    width: 95%;
+}
+div.flex-container img{
+    padding: 10px;
+}
+
+.apple{
+    height: 50px;
+}
+
+.beats{
+    height: 50px;
+}
+
+.nike{
+    height: 40px;
+}
+
+.cognizant{
+    height: 50px;
+}
+
+.microsoft{
+    height: 50px;
+}
+
+.cola{
+    height: 35px;
+}
+
+.vu{
+    height: 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/*footer*/
+footer{
+    background-color: rgb(12, 18, 73);
+    height: 350px;
+    margin: 0 auto;
+}
+
+.flex-container2 {
+    background-color: rgb(12, 18, 73);
+    padding: 20px 0 0 0;
+    margin: 0 auto 50px auto;
+    width: 95%;
+}
+
+.flex-container2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h4{
+    color: white;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+/*subscribe*/
+section.patners>h3 {
+    color: white;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+input.button{
+    background-color: rgb(34, 34, 206);
+    border: 1px solid rgb(172, 148, 45);
+    padding: 5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: rgb(139, 139, 219);
+    margin-bottom: 50px;
+}
+
+input.emailhere{
+    background-color: rgb(25, 46, 138);
+    border: 1px solid rgb(87, 83, 145);
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: rgb(36, 36, 124);
+    margin-left: 5%;
+}
+
+/*copyright*/
+
+span{
+    color: white;
+    font-size: 10px;
+    margin-left: 5%;
+}
+
+img.fb {
+    height: 15px;
+    float: right;
+    margin-right: 5%;
+    padding: 5px;
+}
+
+img.insta {
+    height: 15px;
+    float: right;
+    padding: 5px;
+}
+
+img.linkedin {
+    height: 15px;
+    float: right;
+    padding: 5px;
+}
+
+
+/* CSS for desktop starts here*/
+
+@media only screen and (min-width: 601px){
+
+h1{
+  font-size: 50px;
+  width:70%;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*STORY*/
+
+.story{
+  width:70%;
+}
+
+.story p{
+  font-size: 16px;
+}
+
+/*FAQ*/
+
+
+.faq{
+  width:70%;
+}
+
+.accordion {
+  padding:20px;
+  font-size: 20px;
+}
+
+.panel{
+  font-size: 16px;
+  padding:20px;
+}
+
+/*Gallery*/
+
+.gallery{
+  width:70%;
+}
+
+  .picture-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.picture-grid img{
+    height:300px;
+
+}
+
+iframe{
+  width:50%;
+}
+
+/*FOOTER and partners*/
+
+h4 {
+    margin: 20px 0 0 0;
+    text-align: left;
+    display: inline;
+}
+
+section.partners>h3{
+    text-align: left;
+    padding: 10px 0;
+}
+
+section.partners{
+    width: 70%;
+    padding: 0;
+    min-height: 250px;
+}
+
+div.flex-container img {
+    padding: 0;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex-container2 {
+
+    display: flex;
+    justify-content: left;
+    margin: 0 auto 0 0;
+    width: 0%;
+}
+
+input.emailhere{
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+input.button {
+    height: 37px;
+    margin-top: 15px;
+}
+
+span {margin: 0;}
+p {margin: 0;}
+
+.copyright {
+    width: 70%;
+    margin: 0 auto;
+}
+
+img.fb{
+    margin-right: 0px;
+}
+
+footer {
+    height: 200px;
+}
+
+a.about {
+    padding-left: 0px;
+}
+
+li a{
+    padding-top: 15px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+}

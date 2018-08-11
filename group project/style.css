@@ -1,0 +1,181 @@
+/*CSS for mobile phone*/
+
+body{
+  background-color: #090C30;
+}
+
+h2{
+  width:90%;
+  margin:0 auto;
+  color:white;
+  text-align:center;
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about{
+  color:white;
+  font-family: 'Source Sans Pro', sans-serif;
+  width:90%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.link-box{
+  display:inline-flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.link-flex1{
+  display: flex;
+  color:#44EEEB;
+  text-align: center;
+
+}
+
+.link-flex2{
+  display: flex;
+  color:#44EEEB;
+  text-align: center;
+}
+
+.link-flex1 div, .link-flex2 div{
+  padding:15px;
+  font-size:12px;
+}
+
+
+.fas{
+  display:block;
+  color:#44EEEB;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.about-logo{
+
+  width:100%;
+  margin: 0 auto;
+}
+
+  .about-logo img{
+    width:100%;
+    max-height:100%;
+    margin:0 auto;
+}
+
+.about-text h2{
+  text-align:center;
+  text-transform:none;
+}
+
+.about-text h2 span{
+  color:#44EEEB;
+  text-transform: uppercase;
+}
+
+.about-text{
+  max-width: 100%;
+  margin:0 auto;
+  font-weight: 600;
+  font-size: 14px;
+
+}
+
+.about-text p{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+
+.read{
+  margin:0 auto;
+  font-size:12px;
+  font-weight: 600;
+}
+
+
+.read a{
+  color:white;
+}
+
+/* CSS for desktop starts here*/
+
+
+@media only screen and (min-width: 601px){
+h2{
+  text-align:left;
+  width:70%;
+  font-weight:black;
+  font-size:40px;
+}
+
+.about{
+  width:70%;
+  margin:0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.about-logo img{
+  width:100%;
+  height:100%;
+}
+
+.about-logo {
+  width: 50%;
+}
+
+.about-text {
+width:50%;
+font-weight: inherit;
+font-size: 14px;
+}
+
+.about-text h2{
+  width:100%;
+}
+
+.about-text p{
+  padding:0 10%;
+}
+
+.link-box{
+  width:50%;
+  justify-content: space-around;
+  margin:auto;
+  padding-top:20px;
+}
+
+.link-flex1 div, .link-flex2 div{
+  font-size:16px;
+}
+
+.link-flex1{
+  flex-direction: column;
+}
+
+.link-flex2{
+  flex-direction: column;
+}
+
+.fas{
+  font-size: 25px;
+}
+
+.read{
+  padding-top:20px;
+  width:50%;
+  margin:auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+}
