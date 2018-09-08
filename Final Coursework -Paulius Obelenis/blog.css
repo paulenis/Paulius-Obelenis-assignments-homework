@@ -1,0 +1,55 @@
+.post1, .post2, .post3,.post4{
+  width:70%;
+  margin:0 auto;
+  background-color: black;
+  opacity: 0.9;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+  text-align: justify;
+  padding: 5px;
+  margin-top:20px;
+}
+
+
+.post1 img, .post2 img, .post3 img,.post4 img{
+  height:auto;
+  width:100%;
+}
+
+h4{
+  text-shadow: 2px 2px 2px black;
+  font-size: 40px;
+  padding:5px;
+  margin:0;
+
+}
+.post1 a, .post2 a, .post3 a,.post4 a{
+  font-size: 30px;
+}
+
+.post1 a:hover, .post2 a:hover, .post3 a:hover,.post4 a:hover{
+  background-color: rgb(139, 0, 0);
+}
+
+.blogg{
+  width:70%;
+  margin:0 auto;
+  margin-top:70px;
+}
+
+.post4{
+  margin-bottom: 20px;
+}
+
+.barbor{
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.post1 h4, .post2 h4, .post3 h4, .post4 h4{
+font-size:20px;
+}
+}
+}

@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<title> Barberhaus </title>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/regular.css" integrity="sha384-ZlNfXjxAqKFWCwMwQFGhmMh3i89dWDnaFU2/VZg9CvsMGA7hXHQsPIqS+JIAmgEq" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel= "stylesheet" type= "text/css" href="normalize.css"/>
+<link rel= "stylesheet" type= "text/css" href="style.css"/>
+<link rel= "stylesheet" type= "text/css" href="about.css"/>
+<link rel= "stylesheet" type= "text/css" href="barber1.css"/>
+<link rel= "stylesheet" type= "text/css" href="modal.css"/>
+</head>
+<body>
+  <!--nav starst here-->
+  <header>
+    <div class="inner container">
+        <div>
+            <a href="index.html"><img src="logos.png" alt="logo"/></a>
+        </div>
+        <div class="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+              <a href="about.html">About Us</a>
+              <a href="#"onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Book us</a>
+              <a href="blog.html">Blog</a>
+              <a href="contacts.php">Contacts</a>
+            </div>
+        </div>
+    </div>
+  </header>
+  </div>
+<section class= "about">
+  <div class="story>"><h2> Our story</h2></div>
+  <div class="storywrapper">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu semper ipsum. Phasellus sit amet neque ac risus dapibus fermentum. Nullam congue aliquet dignissim. Aenean euismod metus ut quam rutrum, quis aliquam eros malesuada. In dolor felis, ornare quis blandit eu, ultricies nec metus. In pellentesque nisi ipsum, ut finibus eros efficitur sed. Nam interdum porta lectus, ac volutpat est mollis a. Mauris diam quam, ultrices eget tempus ac, vehicula sit amet massa. Nulla vitae tincidunt urna, eu consectetur lorem. Proin nec viverra augue. Proin sed orci vel tellus auctor auctor at at diam. Maecenas condimentum metus aliquet quam lobortis fermentum. Vivamus pellentesque lobortis sapien, nec tempus dolor tincidunt eget. Phasellus sed malesuada odio. Suspendisse pretium ultrices diam, non rutrum elit ultricies at.
+</p>
+<p>Mauris nec massa massa. Integer malesuada nulla quis tellus sodales tincidunt. Donec feugiat nibh lorem, et rhoncus lectus bibendum eget. Integer nec tellus eu ligula congue ultrices at eget quam. Aliquam porttitor convallis venenatis. Donec in condimentum erat. Nam pulvinar sollicitudin quam, quis scelerisque velit mattis non. Aliquam erat volutpat. Praesent ligula felis, mollis quis feugiat non, sagittis sed massa. Proin eleifend lacus non tincidunt pretium. Aliquam ultricies lacus ac urna aliquam eleifend. Phasellus tempor mollis dapibus. Duis vitae leo eget arcu aliquet aliquet in eget lorem. Aenean vehicula iaculis velit, eu viverra ante pharetra ut. Aenean ornare leo nibh, nec rutrum orci sagittis ac. Suspendisse eu nibh rutrum, efficitur sem sollicitudin, venenatis nulla.
+</p>
+  </div>
+</section>
+
+<h2> Barbers</h2>
+
+<section class="barbers">
+<div id="barber1"onclick="document.getElementById('bar1').style.display='block'">
+  <h4>Jan</h4>
+  </div>
+  <div id="barber2"onclick="document.getElementById('bar2').style.display='block'">
+    <h4>John</h4>
+    </div>
+    <div id="barber3"onclick="document.getElementById('bar3').style.display='block'">
+      <h4>Terry<h4>
+      </div>
+      <div id="barber4"onclick="document.getElementById('bar4').style.display='block'">
+        <h4>Will</h4>
+        </div>
+        <div id="barber5"onclick="document.getElementById('bar5').style.display='block'">
+          <h4>Wayne</h4>
+          </div>
+
+
+</section>
+
+
+  <footer>
+      <form method="post" action="http://localhost/subscribe.php"/>
+      <input type="email" name="subscribe" placeholder="Email">
+      <input class="subscribe" type="submit" value="Subscribe">
+    </form>
+    © 2018 Barberhaus All rights reserved.
+    <a href="facebook.com"><i class="fab fa-facebook"></i></a>
+    <a href="twitter.com"><i class="fab fa-twitter-square"></i></a>
+    <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+  </footer>
+
+
+  <div id="bar1" class="modal">
+    <span onclick="document.getElementById('bar1').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="containerz">
+        <h1>Jan</h1>
+        <div class= "modalwrap">
+        <img src="barber1.jpeg" alt= barber1 />
+        <div class= "description">
+          <ul>
+          <li><p>Chief of Barber Haus</p></li>
+          <li><p>Knows everything about style</p></li>
+          <li><p>5 years experience</p></li>
+          <li><p>Town's local hero</p></li>
+        </ul>
+      </div>
+        </div>
+
+
+  </div>
+
+  <div id="bar2" class="modal">
+    <span onclick="document.getElementById('bar2').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="containerz">
+        <h1>John</h1>
+        <div class= "modalwrap">
+        <img src="barber2.jpeg" alt= barber2 />
+        <div class= "description">
+          <ul>
+          <li><p>Lorem ipsum dolor sit amet.</p></li>
+          <li><p>Lorem ipsum dolor sit amet.e</p></li>
+          <li><p>Lorem ipsum dolor sit amet.</p></li>
+          <li><p>Lorem ipsum dolor sit amet.</p></li>
+        </ul>
+      </div>
+        </div>
+
+
+  </div>
+  <div id="bar3" class="modal">
+    <span onclick="document.getElementById('bar3').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="containerz">
+        <h1>Terry</h1>
+        <div class= "modalwrap">
+        <img src="barber3.jpeg" alt= barber3 />
+        <div class= "description">
+          <ul>
+          <li><p>Etiam posuere a enim quis gravida</p></li>
+          <li><p>Etiam posuere a enim quis gravida</p></li>
+          <li><p>Etiam posuere a enim quis gravida</p></li>
+          <li><p>Etiam posuere a enim quis gravida</p></li>
+        </ul>
+      </div>
+        </div>
+
+
+  </div>
+  <div id="bar4" class="modal">
+    <span onclick="document.getElementById('bar4').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="containerz">
+        <h1>Will</h1>
+        <div class= "modalwrap">
+        <img src="barber4.jpeg" alt= barber4 />
+        <div class= "description">
+          <ul>
+          <li><p>Curabitur maximus convallis suscipit.</p></li>
+          <li><p>Curabitur maximus convallis suscipit.</p></li>
+          <li><p>Curabitur maximus convallis suscipit.</p></li>
+          <li><p>Curabitur maximus convallis suscipit.</p></li>
+        </ul>
+      </div>
+        </div>
+
+
+  </div>
+  <div id="bar5" class="modal">
+    <span onclick="document.getElementById('bar5').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <form class="modal-content" action="/action_page.php">
+      <div class="containerz">
+        <h1>Wayne</h1>
+        <div class= "modalwrap">
+        <img src="barber5.jpeg" alt= barber5 />
+        <div class= "description">
+          <ul>
+          <li><p> Quisque molestie ac dui et vehicula.</p></li>
+          <li><p> Quisque molestie ac dui et vehicula.</p></li>
+          <li><p> Quisque molestie ac dui et vehicula.</p></li>
+          <li><p> Quisque molestie ac dui et vehicula.</p></li>
+        </ul>
+      </div>
+        </div>
+
+
+  </div>
+
+  <script>
+  // Get the modal
+  var modal = document.getElementById('bar1');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+
+<script>
+  // Get the modal
+  var modale = document.getElementById('bar2');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modale) {
+          modale.style.display = "none";
+      }
+  }
+</script>
+<script>
+  // Get the modal
+  var modal = document.getElementById('bar3');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
+<script>
+
+  // Get the modal
+  var modal = document.getElementById('bar4');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+<script>
+  // Get the modal
+  var modal = document.getElementById('bar5');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+  </body>
+  </html>

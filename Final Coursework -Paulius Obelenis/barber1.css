@@ -1,0 +1,126 @@
+
+
+.containerz h1{
+  text-transform:none;
+  padding:0;
+  font-size: 50px;
+  margin:0 0 10px 0;
+  color:white;
+
+}
+
+.modalwrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal img{
+  width:80%;
+  height: auto;
+  border-radius: 50px;
+  border: solid black 1px;
+}
+.modal p{
+
+  color:white;
+  font-size: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+/* Add padding to container elements */
+.containerz {
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul{
+  font-size: 30px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+    background-image: url("modal.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 600px) {
+  .modal p{
+
+    color:white;
+    font-size: 15px;
+  }
+  ul{
+    font-size: 15px;
+  }
+
+  .containerz h1{
+    text-transform:none;
+    padding:0;
+    font-size: 30px;
+    margin:20px 0;
+    color:white;
+
+  }
+}
