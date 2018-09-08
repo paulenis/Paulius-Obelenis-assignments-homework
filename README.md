@@ -1,1 +1,0 @@
-# Paulius-Obelenis-assignments-homework
