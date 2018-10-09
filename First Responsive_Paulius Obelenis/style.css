@@ -1,0 +1,262 @@
+
+
+header{
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+
+}
+
+div a:hover, footer a:hover{
+  background-color: red;
+}
+
+header,footer,section{
+  overflow: auto;
+  font-family: 'Sunflower', sans-serif;
+ }
+
+nav ul li a{
+  text-decoration: none;
+  color:rgb(22, 18, 18);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul{
+  list-style:none;
+  padding:10px;
+}
+
+#logo img{
+  width:40%;
+  margin:0 30% 0 30%;
+}
+
+/*first section starts here*/
+
+
+.first-section{
+  color:white;
+  min-height:500px;
+  width:100%;
+  text-align: center;
+  background-image: url("travel.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-section h1 {
+  display:inline-block;
+  padding:15px;
+  background-color:rgb(22, 18, 18);
+  opacity: 0.7;
+  margin:100px 0 100px 0;
+}
+
+.first-section a{
+  background-color:rgb(22, 18, 18);
+  opacity: 0.7;
+  text-decoration: underline;
+  color: inherit;
+  padding:15px;
+}
+
+
+/*second section starts here*/
+.second-section{
+  color:white;
+  min-height:500px;
+  width:100%;
+  text-align: left;
+  background-image: url("road.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.second-section h2{
+  background-color:rgb(22, 18, 18);
+  opacity: 0.7;
+  display:inline-block;
+  padding:15px;
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.second-section p{
+  background-color:rgb(22, 18, 18);
+  opacity: 0.7;
+  margin:0 10px 0 10px;
+  padding:15px;
+  text-align: justify;
+}
+
+
+/*third section starts here*/
+
+.third-section{
+  color:white;
+  min-height:500px;
+  width:100%;
+  text-align: right;
+  background-image: url("space.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.third-section p{
+  background-color:rgb(22, 18, 18);
+  opacity: 0.7;
+  margin:0 10px 0 10px;
+  padding:15px;
+  text-align: justify;
+}
+
+.third-section h2{
+  background-color:rgb(22, 18, 18);
+  opacity: 0.7;
+  display:inline-block;
+  padding:15px;
+  margin-right:10px;
+  margin-bottom: 10px;
+}
+
+/*contact section starts here*/
+
+
+.contacts{
+  color:white;
+  min-height:500px;
+  min-width:100%;
+  text-align: center;
+  background-image: url("contacts.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contacts h2{
+   background-color:rgb(22, 18, 18);
+   opacity: 0.7;
+   display:inline-block;
+   padding:15px;
+   margin-bottom: 10px;
+  }
+
+  .contacts ol{
+    text-align:left;
+    background-color:rgb(22, 18, 18);
+    opacity: 0.7;
+    padding:15px;
+    margin:0 10px 0 10px;
+  }
+
+
+/*footer section starts here*/
+footer{
+  color:white;
+  text-align:center;
+  background-color: black;
+  height:50px;
+  padding-top:25px;
+}
+
+footer a{
+  color:inherit;
+  font-weight: bold;
+}
+
+
+
+/*desktop section starts here*/
+
+@media only screen and (min-width: 800px) {
+
+#logo{
+  width:40%;
+}
+
+#logo img{
+  margin:0 auto;
+  height:30px;
+}
+
+.header-wrapper{
+  background-color:black;
+  width:100%;
+}
+
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:60%;
+}
+
+
+nav li{
+    display: inline;
+    padding:0 3px 0 3px;
+}
+
+nav li:first-child{
+  padding-left:0;
+}
+
+nav li:last-child{
+  padding-right:0;
+}
+
+nav{
+  width:40%;
+}
+
+nav ul li a{
+  color:white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+
+
+/*desktop second section starts here*/
+
+
+.second-section h2,.second-section p{
+  max-width:60%;
+}
+
+.second-section h2{
+  margin-left: calc(20% - 15px);
+  text-align: center;
+}
+
+.second-section p{
+  margin:0 auto;
+}
+
+
+
+/*desktop third section starts here*/
+
+.third-section h2,.third-section p{
+  max-width:60%;
+}
+
+.third-section h2{
+  margin-right: calc(20% - 15px);
+}
+
+.third-section p{
+  margin:0 auto;
+}
+/*desktop contacts section starts here*/
+
+.contacts h2,.contacts ol{
+  max-width:60%;
+}
+
+.contacts ol{
+  margin:0 auto;
+}
+
+}
